@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Numbers increasing</p>
+<p><font face="arial" size="20" id="number"></font></p>
+
+<p id="demo"></p>
+
+Name:<br><br>
+<input type="text" id="name" name="name">
+<br><br>
+<button onclick="change_text()">Increase</button>
+<p><font face="arial" size="20" id="number"></font></p>
+
+<script>
+function change_text(){
+    var name = document.getElementById("name").value;
+    document.getElementById("demo").innerHTML = "(0)" + name;
+}
+</script>
+
+</body>
+</html>    
